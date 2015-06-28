@@ -24,6 +24,4 @@ IB_DESIGNABLE
 #endif
 @property (nonatomic) IBInspectable CGFloat imageTitleSpace;
 
-+ (id)buttonWithType:(UIButtonType)buttonType edgeInsetsStyle:(HYButtonEdgeInsetsStyle)style imageTitleSpace:(CGFloat)space;
-
 @end

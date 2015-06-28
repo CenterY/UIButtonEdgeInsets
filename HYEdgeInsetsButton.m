@@ -10,14 +10,6 @@
 
 @implementation HYEdgeInsetsButton
 
-+ (id)buttonWithType:(UIButtonType)buttonType edgeInsetsStyle:(HYButtonEdgeInsetsStyle)style imageTitleSpace:(CGFloat)space {
-    
-    HYEdgeInsetsButton *button = [HYEdgeInsetsButton buttonWithType:buttonType];
-    button.edgeInsetsStyle = style;
-    button.imageTitleSpace = space;
-    return button;
-}
-
 - (void)setImage:(UIImage *)image forState:(UIControlState)state {
     [super setImage:image forState:state];
     [self setEdgeInsetsStyle:_edgeInsetsStyle];
